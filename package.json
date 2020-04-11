@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/JsonPlacholder.com.postman_collection.json --color off"
+    "api-tests-production": "newman run tests/JsonPlacholder.com.postman_collection.json --color off,--disable-unicode"
   },
   "author": "MoaazFadel",
   "dependencies": {
